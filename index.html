@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    
+    <title>Nike</title>
+</head>
+<body> 
+    <section class="content">
+        <div class="info">
+            <p class="marca">OpenFreedev<span>.</span></p>
+            <div class="conteudo">
+                <h1>Lançamento <br> Nike Air.</h1>
+                <div class="paragrafo">
+                    <p>O tenis do futuro</p>
+                    <p>O futuro a um passo do seu Alcance!</p>
+                </div>
+                <a href="https://www.centauro.com.br/tenis-nike-air-max-270-masculino-961251.html?cor=19&google=2&merchant=true&gad_source=4&gclid=Cj0KCQjw2ou2BhCCARIsANAwM2EuS0sUomQmPGVLryBMQ1fVA50TWU2aDJFK-QcwXNuPqbjL-3qSOloaAn08EALw_wcB&utm_referrer=https://www.google.com/" target="_blank"><button class="botao">Quero conhecer!</button></a>
+
+                
+            </div>
+           
+        </div>
+        <div class="conteiner">
+            <div id="div1" class="tenis active">
+                <div  class="tenis1" style="background: linear-gradient(to bottom, #293139 50%, #1a5d92 50%);">
+                    <img class="img block" src="img/tenis-azul/tenis-azul.png" alt="tenis-nike">
+                    <img class="img " src="img/tenis-azul/tenis-azul(1).png" alt="tenis-nike">
+                    <img class="img " src="img/tenis-azul/tenis-azul(2).png" alt="tenis-nike">
+                    <img class="img " src="img/tenis-azul/tenis-azul(3).png" alt="tenis-nike">
+                    <img class="img " src="img/tenis-azul/tenis-azul(4).png" alt="tenis-nike">
+                </div>
+            </div>
+            <div id="div2" class="tenis">
+                <div  class="tenis1" style="background: linear-gradient(to bottom, #d1d3d5 50%, #4e5056 50%);">
+                    <img class="img block" src="img/tenis-cinza/tenis-cinza.png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-cinza/nike-cinza (1).png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-cinza/nike-cinza (2).png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-cinza/nike-cinza (3).png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-cinza/nike-cinza (4).png" alt="tenis-nike">
+                </div>
+            </div>
+            <div id="div3" class="tenis">
+                <div  class="tenis1 " style="background: linear-gradient(to bottom, #c5cdc1 50%, #64cc54 50%);">
+                    <img class="img block" src="img/tenis-verde/tenis-verde.png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-verde/tenis-verde (1).png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-verde/tenis-verde (2).png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-verde/tenis-verde (3).png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-verde/tenis-verde (4).png" alt="tenis-nike">
+                </div>
+            </div>
+            <div id="div4" class="tenis">
+                <div  class="tenis1 " style="background: linear-gradient(to bottom, #13181b 50%, #7a2a2e 50%);">
+                    <img class="img block" src="img/tenis-preto-vermelho/tenis-vermelho-preto.png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-preto-vermelho/tenis-preto (1).png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-preto-vermelho/tenis-preto (2).png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-preto-vermelho/tenis-preto (3).png" alt="tenis-nike">
+                    <img class="img" src="img/tenis-preto-vermelho/tenis-preto (4).png" alt="tenis-nike">
+                </div>
+            </div>
+            <div id="prev"><img src="img/seta-direita.png" alt="seta"></div>
+            <div id="next"><img src="img/seta-direita.png" alt="seta"></div>
+        </div>
+
+ 
+
+        <div class="botoes">
+            <div onclick="showDiv('div1')" class="item" style="background: linear-gradient(to bottom, #293139 50%, #1a5d92 50%);"><img src="img/tenis-azul/tenis-azul.png" alt="tenis-azul"></div>
+            <div onclick="showDiv('div2')" class="item" style="background: linear-gradient(to bottom, #d1d3d5 50%, #4e5056 50%); "><img src="img/tenis-cinza/tenis-cinza.png" alt="tenis-cinza"></div>
+            <div onclick="showDiv('div3')" class="item " style="background: linear-gradient(to bottom, #c5cdc1 50%, #64cc54 50%);"><img src="img/tenis-verde/tenis-verde.png" alt="tenis-verde"></div>
+            <div onclick="showDiv('div4')" class="item" style="background: linear-gradient(to bottom, black 50%, #7a2a2e 50%);"><img src="img/tenis-preto-vermelho/tenis-vermelho-preto.png" alt="tenis-preto-vermelho"></div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
