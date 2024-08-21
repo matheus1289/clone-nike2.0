@@ -197,11 +197,11 @@ body{
         width: 100%;  
     }
     .tenis .img{
-        width: 75%;
+        width: 65%;
         max-width: 500px;
-        top: 0%;
+        top: 50%;
         left: 1000px;
-        transform: translate(-50%);
+        transform: translate(-50%, -60%);
         position: absolute;
     }
     .tenis .block{
